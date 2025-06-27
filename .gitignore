@@ -1,3 +1,4 @@
-/eksctl-config-dot.yaml
-/aws-creds.conf
-/.env
+eksctl-config*.yaml
+aws-creds.conf
+.env
+gke_gcloud_auth_plugin_cache

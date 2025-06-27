@@ -253,54 +253,6 @@
       "last_modified": "2025-04-13T09:22:33Z",
       "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?lastModified=1744536153&narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg%2FN38%3D"
     },
-    "google-cloud-sdk@515.0.0": {
-      "last_modified": "2025-03-25T17:32:05Z",
-      "resolved": "github:NixOS/nixpkgs/25d1b84f5c90632a623c48d83a2faf156451e6b1#google-cloud-sdk",
-      "source": "devbox-search",
-      "version": "515.0.0",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/hxczn15kq3sql7ln18f6nh9vx605l52a-google-cloud-sdk-515.0.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/hxczn15kq3sql7ln18f6nh9vx605l52a-google-cloud-sdk-515.0.0"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/mn6fdq24272mq2fkvjxzl96gbb2c6wpv-google-cloud-sdk-515.0.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/mn6fdq24272mq2fkvjxzl96gbb2c6wpv-google-cloud-sdk-515.0.0"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/kb6pgs1pmbf0jxxbzzmhjrdbkjqxrqg9-google-cloud-sdk-515.0.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/kb6pgs1pmbf0jxxbzzmhjrdbkjqxrqg9-google-cloud-sdk-515.0.0"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/nyis1gj6479d3r6fvn0vw7s83g731h7h-google-cloud-sdk-515.0.0",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/nyis1gj6479d3r6fvn0vw7s83g731h7h-google-cloud-sdk-515.0.0"
-        }
-      }
-    },
     "kind@0.27.0": {
       "last_modified": "2025-03-23T05:31:05Z",
       "resolved": "github:NixOS/nixpkgs/dd613136ee91f67e5dba3f3f41ac99ae89c5406b#kind",
@@ -574,6 +526,54 @@
             }
           ],
           "store_path": "/nix/store/y43lnw0k3whddczpdnhsjx7m367swlk7-teller-2.0.7"
+        }
+      }
+    },
+    "yq-go@4.45.4": {
+      "last_modified": "2025-06-20T02:24:11Z",
+      "resolved": "github:NixOS/nixpkgs/076e8c6678d8c54204abcb4b1b14c366835a58bb#yq-go",
+      "source": "devbox-search",
+      "version": "4.45.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kqya5knldcrikbrz40pnmknfs3gjkg9w-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kqya5knldcrikbrz40pnmknfs3gjkg9w-yq-go-4.45.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1hmg1i2wmaxfc86wqrb9qsy076a7943j-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1hmg1i2wmaxfc86wqrb9qsy076a7943j-yq-go-4.45.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/icffhhgy7by7fs7crc1wacy035s0lgk7-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/icffhhgy7by7fs7crc1wacy035s0lgk7-yq-go-4.45.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hylqws7j7m14xmkalgfxh4y87bvppmfw-yq-go-4.45.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hylqws7j7m14xmkalgfxh4y87bvppmfw-yq-go-4.45.4"
         }
       }
     }
